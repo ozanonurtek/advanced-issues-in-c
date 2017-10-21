@@ -22,11 +22,13 @@ int main(){
 	addNewEmployee(22, "Mert", &head);
 	addNewEmployee(16, "Veli", &head);
 	addToEndOfList(13, "Ali", &head);
-	addToEndOfList(14, "Ayşe", &head);
+	addToEndOfList(14, "Ahmet", &head);
 	addAfterEmployee(21, "Berfin", "Ozan", &head);
 	iterateLinkedList(head);
 	printf("----DELETED LIST-----\n");
+	deleteEmployeeWithName("Ahmet", &head);	
 	deleteEmployeeWithName("Ozan", &head);	
+	
 	iterateLinkedList(head);
 	deleteAllList(&head);
 	printf("----DELETE ALL LIST-----\n");
@@ -61,23 +63,18 @@ void iterateLinkedList(struct Employee *employee){
 }
 
 void deleteEmployeeWithName(char employeeName[100], struct Employee **employee){
-	struct Employee *iterator = *employee;
-	
-	struct Employee *previousEmployee = NULL;
-	
+	struct Employee *iterator = *employee;	
 	//Check for first element
 	if(*employee != NULL && strcmp(iterator->name,employeeName) == 0){
 		(*employee) = iterator->next;
 	}
 	
-	
 	while(iterator->next != NULL){
-		if(strcmp(iterator->name,employeeName) == 0 && previousEmployee != NULL){
-			iterator = previousEmployee;
-			iterator->next = iterator->next->next;
-			printf("%s is deleted from list. \n---\n", employeeName);
+		if(strcmp(iterator->next->name,employeeName) == 0){
+				iterator->next = iterator->next->next;
+				printf("%s is deleted from list. \n---\n", employeeName);
+				break;
 		}
-		previousEmployee = iterator;
 		iterator = iterator->next;
 	}
 
