@@ -3,6 +3,7 @@
 
 ## Linked Lists
 
+- Singly Linked List :+1:
 - Doubly Linked List
 - Circular Linked List
 
@@ -33,7 +34,7 @@
 
 ## Sorting
 
-- Bubble Sort
+- Bubble Sort :+1:
 - Selection Sort
 - Merge Sort 
 - Insertion Sort
