@@ -1,6 +1,8 @@
 
 # TODO:
 
+## Data Structures
+
 ## Linked Lists
 
 - Singly Linked List :+1:
@@ -41,7 +43,8 @@
 - Shell Sort
 - Quick Sort
 
-## Others
+## Process Schedulings
 
 - Round Robin
-- Dining Philosopher Problem
+- Shortest Job First
+- First Come First Serve
