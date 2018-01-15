@@ -55,6 +55,7 @@
 
 ## Process Schedulings
 
+- Process Scheduling Homework(Shortest Job First, Also about process communication, WINAPI) :+1:
 - Round Robin
 - Shortest Job First
 - First Come First Serve
