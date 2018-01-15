@@ -46,11 +46,12 @@
 ## Sychronization
 
 - Thread Sychronization(WINAPI) :+1:
+- Synchronization Example(Also about deadlocks. Check Homework) :+1:
 
 ## Process Communication
 
-- Pipe :+1:
-- Named Pipe
+- Pipe(WINAPI) :+1:
+- Named Pipe(WINAPI-Check Homework) :+1:
 
 ## Process Schedulings
 
