@@ -43,6 +43,10 @@
 - Shell Sort
 - Quick Sort
 
+## Thread Sychronization
+
+- Thread Sychronization(WINAPI) :+1:
+
 ## Process Schedulings
 
 - Round Robin
