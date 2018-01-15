@@ -47,6 +47,11 @@
 
 - Thread Sychronization(WINAPI) :+1:
 
+## Process Communication
+
+- Pipe :+1:
+- Named Pipe
+
 ## Process Schedulings
 
 - Round Robin
