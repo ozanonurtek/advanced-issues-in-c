@@ -25,7 +25,7 @@
 
 ## Recursion
 
-- Basics
+- Basics :+1:
 - Tower of Hanoi
 
 ## Graph Data Structure
