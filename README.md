@@ -43,7 +43,7 @@
 - Shell Sort
 - Quick Sort
 
-## Thread Sychronization
+## Sychronization
 
 - Thread Sychronization(WINAPI) :+1:
 
